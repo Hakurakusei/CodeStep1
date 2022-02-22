@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 180px;
+
+}
+
+.footer__body {
+    display: flex;
+    letter-spacing: 0.1em;
+
+    & .footer__sec {
+        width:calc(100% / 4);
+
+        & .footer__sec-title{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        & .footer__sec-menu{
+            padding-top: 10px;
+            padding-left: 12px;
+        }
+    }
+}
+
+.footer__copy{
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}

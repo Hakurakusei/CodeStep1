@@ -1,0 +1,20 @@
+.swiper {
+    width: 100%;
+    height:100%;
+}
+.mv__bg > .swiper-slide{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &:nth-child(1){
+        background-image:url("img/mainvisual1.jpg");
+    }
+    &:nth-child(2){
+        background-image:url("img/mainvisual2.jpg");
+    }
+    &:nth-child(3){
+        background-image:url("img/mainvisual3.jpg");
+    }
+}

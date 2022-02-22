@@ -1,0 +1,24 @@
+@import "scss/header";
+@import "scss/nav";
+@import "scss/swiper";
+@import "scss/mv";
+@import "scss/select";
+@import "scss/section-title";
+@import "scss/voice";
+@import "scss/l-inner";
+@import "scss/about";
+@import "scss/form";
+@import "scss/footer";
+
+
+* ,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin:0;
+}
+
+body{
+    font-family: "游ゴシック";
+}

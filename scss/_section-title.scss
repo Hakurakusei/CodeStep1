@@ -1,0 +1,23 @@
+.section-title {
+    padding-top: 120px;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    position:relative;
+
+    @media screen and (max-width:900px) {
+        font-size:28px;
+    }
+
+    & p::after{
+        content: '';
+        position: absolute;
+        width: 100px;
+        height:2px;
+        background-color: #333;
+        top:110%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}

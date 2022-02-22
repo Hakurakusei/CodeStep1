@@ -1,0 +1,39 @@
+.form__body {
+    padding-top: 120px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    & .form__title {
+        font-size: 32px;
+        font-weight: bold;
+        
+    }
+
+    & .form__text {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    
+    & .form__btn {
+        margin-top: 40px;
+        background-color: #FF2A2A;
+        width:100%;
+        border:none;
+        height: 66px;
+        color:white;
+        font-size: 28px;
+        font-weight: bold;
+        border-radius: 40px;
+        letter-spacing: 0.1em;
+        transition: color,background-color 0.3s;
+
+        @media screen and (max-width:900px) {
+            font-size:24px;
+        }
+
+        &:hover{
+            color:#FF2A2A;
+            background-color: white;
+            border:2px solid #FF2A2A
+        }
+    }
+}
